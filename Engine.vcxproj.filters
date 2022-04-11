@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="エンジン">
+      <UniqueIdentifier>{65f69fba-da05-4cfd-a050-cebad198fd64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジン\カメラ関係">
+      <UniqueIdentifier>{4cdf5469-1696-4a30-be4d-95d466fc57a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジン\基盤関係">
+      <UniqueIdentifier>{6bae1947-86e4-405b-bcc5-413c69962f8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジン\スプライト関係">
+      <UniqueIdentifier>{3f39a384-0938-46e1-bba5-2edf6fa530e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジン\オブジェクト関係">
+      <UniqueIdentifier>{517f369b-4255-4907-80b7-1081eb79cdcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジン\入力関係">
+      <UniqueIdentifier>{5e8ff79f-15e8-4ad3-a26d-4223c4e68f1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジン\サウンド関係">
+      <UniqueIdentifier>{a3e55331-54d2-44b7-8fd7-f3a7d236b682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジン\テクスチャ関係">
+      <UniqueIdentifier>{438d9d51-a1b7-4361-b426-6b5783d71cb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジン\便利系">
+      <UniqueIdentifier>{445df97c-3d10-4d1d-8f53-5710df590110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジン\デバックテキスト関係">
+      <UniqueIdentifier>{e74cae3b-f488-4b78-b93a-3dec10bec7e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジン\シェーダー">
+      <UniqueIdentifier>{be347e63-1ff3-4d6f-8f05-cfb0ecb1b459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジン\シェーダー\Basic">
+      <UniqueIdentifier>{8183a575-0fec-4bbc-aa29-f97bdd2eb6ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジン\シェーダー\Sprite">
+      <UniqueIdentifier>{6aeb0409-12d0-4910-a884-3e21bc5a509e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジン\シェーダー\Object">
+      <UniqueIdentifier>{cb728262-bef0-4a10-9687-63294f66a5ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="アプリケーション">
+      <UniqueIdentifier>{5180ad48-a17a-4cfd-b364-c813a6318f7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="アプリケーション\シーン管理系">
+      <UniqueIdentifier>{25ba5165-dde4-4002-85aa-e5f3304c675a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジン\当たり判定系">
+      <UniqueIdentifier>{58029b6c-2029-4ad6-aa62-4f0c99f4a3d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>アプリケーション</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>エンジン\カメラ関係</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXBase.cpp">
+      <Filter>エンジン\基盤関係</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteManager.cpp">
+      <Filter>エンジン\スプライト関係</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeManager.cpp">
+      <Filter>エンジン\オブジェクト関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>エンジン\入力関係</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>アプリケーション\シーン管理系</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>エンジン\サウンド関係</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>エンジン\テクスチャ関係</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsAPI.cpp">
+      <Filter>エンジン\基盤関係</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>エンジン\オブジェクト関係</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugText.cpp">
+      <Filter>エンジン\デバックテキスト関係</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionPrimitive.cpp">
+      <Filter>エンジン\当たり判定系</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>エンジン\当たり判定系</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>エンジン\カメラ関係</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXBase.h">
+      <Filter>エンジン\基盤関係</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>エンジン\基盤関係</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteManager.h">
+      <Filter>エンジン\スプライト関係</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeManager.h">
+      <Filter>エンジン\オブジェクト関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>エンジン\基盤関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>エンジン\入力関係</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>アプリケーション\シーン管理系</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>エンジン\サウンド関係</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>エンジン\テクスチャ関係</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsAPI.h">
+      <Filter>エンジン\基盤関係</Filter>
+    </ClInclude>
+    <ClInclude Include="HHelper.h">
+      <Filter>エンジン\便利系</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>エンジン\オブジェクト関係</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugText.h">
+      <Filter>エンジン\デバックテキスト関係</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionPrimitive.h">
+      <Filter>エンジン\当たり判定系</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>エンジン\当たり判定系</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Resources\Shader\BasicPS.hlsl">
+      <Filter>エンジン\シェーダー\Basic</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\BasicVS.hlsl">
+      <Filter>エンジン\シェーダー\Basic</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\ObjectPS.hlsl">
+      <Filter>エンジン\シェーダー\Object</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\ObjectVS.hlsl">
+      <Filter>エンジン\シェーダー\Object</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\SpritePS.hlsl">
+      <Filter>エンジン\シェーダー\Sprite</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\SpriteVS.hlsl">
+      <Filter>エンジン\シェーダー\Sprite</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shader\BasicShaderHeader.hlsli">
+      <Filter>エンジン\シェーダー\Basic</Filter>
+    </None>
+    <None Include="Resources\Shader\ObjectShaderHeader.hlsli">
+      <Filter>エンジン\シェーダー\Object</Filter>
+    </None>
+    <None Include="Resources\Shader\SpriteShaderHeader.hlsli">
+      <Filter>エンジン\シェーダー\Sprite</Filter>
+    </None>
+  </ItemGroup>
+</Project>
